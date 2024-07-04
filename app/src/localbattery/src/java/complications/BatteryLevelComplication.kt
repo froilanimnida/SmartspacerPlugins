@@ -32,7 +32,7 @@ class BatteryLevelComplication: SmartspacerComplicationProvider() {
                 icon = com.kieronquinn.app.smartspacer.sdk.model.uitemplatedata.Icon(
                     Icon.createWithResource(
                         provideContext(),
-                        R.drawable.battery
+                        R.drawable.baseline_bolt
                     )
                 ),
                 content = Text("$level%"),
